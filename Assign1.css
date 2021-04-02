@@ -1,0 +1,103 @@
+#grad {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+  
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #left {
+      text-align: left;
+  }
+  #right{
+      text-align: right;
+    
+  }
+
+  #middle{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+  }
+
+  #icon {
+      padding: 0px 20px 0px 60px;
+  }
+
+        input {
+    box-shadow: 50px;
+    border: 1px solid white;
+    border-radius: 25px;
+    height: 40px;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+    box-shadow: 0px 10px 50px grey
+    
+  }
+
+  .row,#calen{
+      text-align: left;
+  }
+
+  .day {
+      text-align: left;
+      padding-left: 10%;
+
+  }
+  .temp {
+      padding-top: 50px;
+      padding-left: 15px;
+      
+  }
+  .tempmain {
+    padding-top: 70px;
+    padding-left: 25px;
+    font-size: 58px;
+}
+
+  p {
+      letter-spacing: 10px;
+      padding-top: 40px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
+  
+
+  #mid{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20%;
+
+  }
+  .enlarge {
+      font-size: 20px;
+  }
+  h4 {
+      text-align: right;
+      padding-right: 60px;
+  }
+
+  img{
+      align-items: left;
+      border-radius: 50%;
+      padding: 50% 0 50% 0    
+  }
+
+  .bg{
+    padding: 60px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left, white, rgba(235,215,214,255));
+  }
