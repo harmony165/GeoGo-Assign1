@@ -59,25 +59,46 @@
 
   }
   .temp {
-      padding-top: 50px;
+    
       padding-left: 15px;
       
   }
   .tempmain {
-    padding-top: 70px;
-    padding-left: 25px;
-    font-size: 50px;
+    padding-top: 20px;
+    font-size: 38px;
 }
 
+table{
+  padding-top: 25px;
+}
+.main{
+  padding-right: 15px;
+  padding-top: 10px;
+  font-size: 25px;
+}
   p {
       letter-spacing: 10px;
-      padding-top: 40px;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+      padding-left: 0px;
+      padding-top: 0px;
+      writing-mode: vertical-lr;
+     text-orientation: upright;
+      text-align: left;
   }
+  .vl {
+    border-left: 2px solid black;
+    height: 40%;
+  }
+  .vlmain {
+    border-left: 2px solid black;
+    height: 40%;
+  }
+.pad{
+  padding-right: 15px;
+}
 
-  
-
+.pad{
+  padding-right: 15px;
+}
   #mid{
     display: inline-block;
     text-align: center;
@@ -112,4 +133,18 @@
     background-color:rgba(235,215,214,255) ;
     
     
+    
   }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #left{
+    display: block;
+  }
+  #middle{
+    display: block;
+  }
+  #right{
+    display:block;
+  }
+}

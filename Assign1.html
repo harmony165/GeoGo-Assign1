@@ -6,8 +6,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
     </head>
     <body >
+      <script src="Assign1.js"></script>
       <div class="enclosure">
         <div class="bg">
         <div class="row">
@@ -16,110 +18,169 @@
                 <i id="icon"class="fa fa-instagram fa-2x"></i>
             </div>
             <div class="column"id="middle"><h1>Wearest.</h1></div>
-            <div class="column"id="right"><input class="search"type="search" placeholder="search place"></input></div>
+            <div class="column"id="right"><input id="newplace" class="search"type="text" placeholder="search place"onkeydown="getInput(event)">
+            
+            <!-- <input type="text" placeholder="some text" class="search" onkeydown="search()"/> -->
+            </input></div>
           </div>
           <div class="row">
               <div class="column"id="left">
                   <div class="day">
-                    <table>
-                        <tr >
-                            <th rowspan="3" scope="rowgroup"><i class="fa fa-snowflake-o" style="font-size:40px"></i> </th>
-                            
-                            <th rowspan="4" class="vertical"><p>TUE</p></th>
-                            <th rowspan="4" class="temp"><h1>2 &#176</h1></th>
-                        </tr>
-                        </tbody>
-                        <tbody>
-                          <tr>
-                            <th rowspan="2" scope="rowgroup">WINTER</th>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <table >
+                      <tr>
+                         <th rowspan="3" class="pad"><i class="fa fa-snowflake-o" style="font-size:40px"></i></th>
+                         <th rowspan="4" class="vl"><p id="">THU</p></th>
+                         <th rowspan="4" class="temp"><h1>4 &#176</h1></th>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr> 
+                         <th class="pad">WINTER</th>
+                         <td></td>
+                      </tr>
+                   </table>
                     </div>
                   <div class="day">
-                    <table>
-                        <tr >
-                            <th rowspan="3" scope="rowgroup"><i class="fa fa-snowflake-o" style="font-size:40px"></i> </th>
-                            
-                            <th rowspan="4" class="vertical"><p>WED</p></th>
-                            <th rowspan="4" class="temp"><h1>4 &#176</h1></th>
-                        </tr>
-                        </tbody>
-                        <tbody>
-                          <tr>
-                            <th rowspan="2" scope="rowgroup">WINTER</th>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <table >
+                      <tr>
+                         <th rowspan="3" class="pad"><i class="fa fa-snowflake-o" style="font-size:40px"></i></th>
+                         <th rowspan="4" class="vl"><p id="next2">FRI</p></th>
+                         <th rowspan="4" class="temp"><h1>2 &#176</h1></th>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr> 
+                         <th class="pad">WINTER</th>
+                         <td></td>
+                      </tr>
+                   </table>
                   </div>
                   <div class="day">
-                    <table>
-                        <tr >
-                            <th rowspan="3" scope="rowgroup"><i class="fa fa-snowflake-o" style="font-size:40px"></i> </th>
-                            
-                            <th rowspan="4" class="vertical"><p>THUR</p></th>
-                            <th rowspan="4" class="temp"><h1>1 &#176</h1></th>
-                        </tr>
-                        </tbody>
-                        <tbody>
-                          <tr>
-                            <th rowspan="2" scope="rowgroup">WINTER</th>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <table >
+                      <tr>
+                         <th rowspan="3" class="pad"><i class="fa fa-snowflake-o" style="font-size:40px"></i></th>
+                         <th rowspan="4" class="vl"><p id="next3">SAT</p></th>
+                         <th rowspan="4" class="temp"><h1>1 &#176</h1></th>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr> 
+                         <th class="pad">WINTER</th>
+                         <td></td>
+                      </tr>
+                   </table>
                   </div>
                   <div class="day">
-                    <table>
-                        <tr >
-                            <th rowspan="3" scope="rowgroup"><i class="fa fa-snowflake-o" style="font-size:40px"></i> </th>
-                            
-                            <th rowspan="4" class="vertical"><p>FRI</p></th>
-                            <th rowspan="4" class="temp"><h1>3 &#176</h1></th>
-                        </tr>
-                        </tbody>
-                        <tbody>
-                          <tr>
-                            <th rowspan="2" scope="rowgroup">WINTER</th>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <table >
+                      <tr>
+                         <th rowspan="3" class="pad"><i class="fa fa-snowflake-o" style="font-size:40px"></i></th>
+                         <th rowspan="4" class="vl"><p id="next4">SUN</p></th>
+                         <th rowspan="4" class="temp"><h1>3 &#176</h1></th>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr> 
+                         <th class="pad">WINTER</th>
+                         <td></td>
+                      </tr>
+                   </table>
                   </div>
                   <div class="day">
-                    <table>
-                        <tr >
-                            <th rowspan="3" scope="rowgroup"><i class="fa fa-snowflake-o" style="font-size:40px"></i> </th>
-                            
-                            <th rowspan="4" class="vertical"><p>SAT</p></th>
-                            <th rowspan="4" class="temp"><h1>5 &#176</h1></th>
-                        </tr>
-                        </tbody>
-                        <tbody>
-                          <tr>
-                            <th rowspan="2" scope="rowgroup">WINTER</th>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <table >
+                      <tr>
+                         <th rowspan="3" class="pad"><i class="fa fa-snowflake-o" style="font-size:40px"></i></th>
+                         <th rowspan="4" class="vl"><p id="next5">MON</p></th>
+                         <th rowspan="4" class="temp"><h1>4 &#176</h1></th>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr> 
+                         <th class="pad">WINTER</th>
+                         <td></td>
+                      </tr>
+                   </table>
                   </div>
                   <div class="day">
-                    <table>
-                        <tr >
-                            <th rowspan="3" scope="rowgroup"><i class="fa fa-snowflake-o" style="font-size:40px"></i> </th>
-                            
-                            <th rowspan="4" class="vertical"><p>SUN</p></th>
-                            <th rowspan="4" class="temp"><h1>4 &#176</h1></th>
-                        </tr>
-                        </tbody>
-                        <tbody>
-                          <tr>
-                            <th rowspan="2" scope="rowgroup">WINTER</th>
-                          </tr>
-                        </tbody>
-                      </table>
+
+                    <table >
+                      <tr>
+                         <th rowspan="3" class="pad"><i class="fa fa-snowflake-o" style="font-size:40px"></i></th>
+                         <th rowspan="4" class="vl"><p id="next6">TUE</p></th>
+                         <th rowspan="4" class="temp"><h1>5 &#176</h1></th>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr>
+                         <td></td>
+                         <td></td>
+                      </tr>
+                      
+                      <tr> 
+                         <th class="pad">WINTER</th>
+                         <td></td>
+                      </tr>
+                   </table>
                   </div>
+
+
                 </div>
+
+                
+
+                
                 <div class="column"id="mid">
                     <div class="day">
-                        <table>
+                      
+                        <!-- <table>
                             <tr >
                                 <th rowspan="3" scope="rowgroup"><i class="fa fa-snowflake-o" style="font-size:100px"></i> </th>
                                 
@@ -128,17 +189,43 @@
                             </tr>
                             </tbody>
                           
-                          </table>
-                         <h3>MONDAY, 30th FEB 2090</h3> 
-                         <h4>     Seoul, South Korea</h4>
+                          </table> -->
+                          <table >
+                            <tr>
+                               <th rowspan="3"class="pad"><i class="fa fa-snowflake-o" style="font-size:100px"></i></th>
+                               <th rowspan="4" class="vlmain"><p></p></th>
+                               <th rowspan="4" class="tempmain" id="switchtemp"></th>
+                            </tr>
+                            
+                            <tr>
+                               <td>  </td>
+                               <td></td>
+                            </tr>
+                            
+                            <tr>
+                               <td></td>
+                               <td></td>
+                            </tr>
+                            
+                            <tr> 
+                               <th class="main">WINTER</th>
+                               <td></td>
+                            </tr>
+                         </table>
+                         <h3 id="date"></h3> 
+                         <h4 id="location"> </h4>
                         </div>
                  </div>
+
+                  
                  
                  <div class="column"id="right">
                     <img src="img2.png"/>
                      </div> 
                     </div>
                   </div>
-          
+                 
     </body>
 </html> 
+
+
